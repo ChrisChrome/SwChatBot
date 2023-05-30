@@ -1,0 +1,8 @@
+{
+	"port": 9005,
+	"password": "ChangeMeFuckBoi",
+	"discord": {
+		"token": "TokenHere",
+		"channel": "ChannelIDHere"
+	}
+}
