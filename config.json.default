@@ -3,6 +3,10 @@
 	"password": "ChangeMeFuckBoi",
 	"discord": {
 		"token": "TokenHere",
-		"channel": "ChannelIDHere"
+		"channel": "ChannelIDHere",
+		"webhook": {
+			"id": "",
+			"token": ""
+		}
 	}
 }
