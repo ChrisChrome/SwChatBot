@@ -52,6 +52,17 @@ app.get("/send/:data", async (req, res) => {
 	res.sendStatus(204);
 });
 
+app.get("/sendsystem/:data", async (req, res) => {
+	const data = JSON.parse(decodeURIComponent(req.params.data));
+	if (data.password !== config.password) return res.sendStatus(403);
+	webhook.send({
+		isUser: false,
+		username: data.name,
+		content: data.msg
+	});
+	res.sendStatus(204);
+});
+
 app.get("/get/:password", (req, res) => {
 	if (req.params.password !== config.password) return res.sendStatus(403);
 	res.send(msgBuffer);
