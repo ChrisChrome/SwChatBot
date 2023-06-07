@@ -4,9 +4,6 @@
 	"discord": {
 		"token": "TokenHere",
 		"channel": "ChannelIDHere",
-		"webhook": {
-			"id": "",
-			"token": ""
-		}
+		"webhook": ""
 	}
 }
