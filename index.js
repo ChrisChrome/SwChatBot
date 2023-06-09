@@ -25,7 +25,7 @@ client.on("messageCreate", async (message) => {
 	if (message.channel.id !== config.discord.channel) return;
 	if (message.content.length == 0) return;
 	msgBuffer.push({
-		name: message.author.tag,
+		name: message.author.username,
 		msg: message.content,
 	});
 });
