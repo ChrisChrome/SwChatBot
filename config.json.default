@@ -1,6 +1,7 @@
 {
 	"port": 9005,
 	"password": "ChangeMeFuckBoi",
+	"steamkey": "get one at https://steamcommunity.com/dev/apikey"
 	"discord": {
 		"token": "TokenHere",
 		"channel": "ChannelIDHere",
